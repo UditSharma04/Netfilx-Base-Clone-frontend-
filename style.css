@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 674px;
+    position: relative;
+}
+
+.main .box {
+    height: 674px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.text {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.text> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.text> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.text> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.line {
+    height: 8.5px;
+    background-color: #232323;
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    padding: 5.6px 14px;
+    font-weight: 700;
+    font-size:13px;
+    margin: 0px 20px 0px 0px;;
+    background-color: rgba(35, 34, 34, 0.701);
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.textButton{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+}
+
+.btn-red {
+    background-color: #e50914;
+    color: white;
+    font-size: x-large;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 10px 27px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+
+
+
+.btn-red-sm {
+    background-color: #e50914;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 14px;
+}
+
+.main input{
+    border-radius: 4px;
+    color: whitesmoke;
+    padding: 15px 139px 15px 14px;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(186, 177, 177, 0.7);
+}
+
+.main input::placeholder{
+    color: #c5bfb6;
+}
